@@ -1,0 +1,10 @@
+CREATE TABLE users (
+    id BIGSERIAL PRIMARY KEY,
+    username VARCHAR(100) UNIQUE NOT NULL,
+    email VARCHAR(150) UNIQUE NOT NULL,
+    password VARCHAR(255),
+    role_id BIGINT REFERENCES roles(id),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    del_yn VARCHAR(1) DEFAULT 'N',
+    del_at TIMESTAMP
+);

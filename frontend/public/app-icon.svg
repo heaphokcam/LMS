@@ -1,0 +1,29 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="houseBlue" x1="48" y1="44" x2="208" y2="170" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4E9AE3"/>
+      <stop offset="1" stop-color="#2D7FCF"/>
+    </linearGradient>
+  </defs>
+
+  <path d="M48 108L128 44L208 108" stroke="url(#houseBlue)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M72 102V162" stroke="url(#houseBlue)" stroke-width="8" stroke-linecap="round"/>
+  <path d="M184 102V162" stroke="url(#houseBlue)" stroke-width="8" stroke-linecap="round"/>
+  <path d="M88 162H168" stroke="#D9E9FA" stroke-width="8" stroke-linecap="round"/>
+
+  <path d="M128 78V162" stroke="#2D7FCF" stroke-width="9" stroke-linecap="round"/>
+  <path
+    d="M147 96C147 86 138 80 128 80C118 80 110 86 110 94C110 102 117 108 128 108C140 108 147 114 147 122C147 130 140 136 128 136C116 136 109 130 109 122"
+    stroke="#2D7FCF"
+    stroke-width="9"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <rect x="14" y="176" width="24" height="48" rx="4" fill="#2F3D51"/>
+  <path
+    d="M36 184C49 174 64 168 81 168H128C133 168 138 172 138 177C138 182 133 186 128 186H108C104 186 101 189 101 193C101 197 104 200 108 200H148C156 200 163 198 169 193L190 176C195 172 202 172 207 176C213 181 212 189 206 194L183 213C173 221 160 226 147 226H85C71 226 57 230 45 238L36 184Z"
+    fill="#36495F"
+  />
+  <rect x="206" y="166" width="24" height="42" rx="4" fill="#41556E"/>
+</svg>

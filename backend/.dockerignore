@@ -1,0 +1,10 @@
+.git
+.gitignore
+build
+*.md
+.idea
+.vscode
+*.iml
+.DS_Store
+terminals
+agent-transcripts

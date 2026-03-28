@@ -1,0 +1,6 @@
+CREATE TABLE roles (
+    id BIGSERIAL PRIMARY KEY,
+    name VARCHAR(50) UNIQUE NOT NULL,
+    del_yn VARCHAR(1) DEFAULT 'N',
+    del_at TIMESTAMP
+);
